@@ -1,0 +1,6 @@
+2022-04-26 21:14:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "BOOK[*] SELECT * FROM AUTHOR"; expected "BACKUP, BEGIN"; SQL statement:
+BOOK SELECT * FROM AUTHOR [42001-200]
+2022-04-26 21:15:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "BOOK_AUTHORS[*] SELECT * FROM BOOK"; expected "BACKUP, BEGIN"; SQL statement:
+BOOK_AUTHORS SELECT * FROM BOOK [42001-200]
